@@ -1,0 +1,196 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos do formulário */
+form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form h2 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Estilos dos rótulos e inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #666666;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333333;
+    background-color: #fafafa;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+/* Estilos dos botões */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+}
+
+input[type="button"] {
+    background-color: #4caf50;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #5555ff;
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f;
+}
+
+input[type="button"]:hover {
+    background-color: #388e3c;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+td {
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5555ff;
+}
+/* Estilo adicional para o botão "Voltar" */
+.btn-voltar {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5555ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-voltar:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos adicionais para a tabela na lista de alunos */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+td {
+    color: #333333;
+    font-size: 0.9rem;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+tr:hover {
+    background-color: #e9eff7;
+}
+
+/* Estilo para os links de ação (Editar/Excluir) */
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5555ff;
+}
